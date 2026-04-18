@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.box {
+  flex: 1 1 calc(33.333% - 20px); 
+  background: #483f76;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  font-size: 20px;
+  border-radius: 8px;
+}
